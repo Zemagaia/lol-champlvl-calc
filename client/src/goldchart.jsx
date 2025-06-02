@@ -28,7 +28,7 @@ export default function GoldChart({ championName }) {
 
   useEffect(() => {
     if (!championName) return;
-    axios.get(`${import.meta.env.VITE_API_URL}/champion/${name}`)
+    axios.get(`https://lol-champlvl-calc.onrender.com/${championName}`)
       .then(res => {
         const stats = res.data.data[championName].stats;
         const levels = Array.from({ length: 18 }, (_, i) => i + 1);

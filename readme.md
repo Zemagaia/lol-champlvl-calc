@@ -41,14 +41,14 @@ npm run dev
 - Open http://localhost:5173
 
 ## Dependencies
-##Frontend
+## Frontend
 - React
 - Vite
 - Axios
 - Recharts
 - TailwindCSS (optional)
 
-##Backend
+## Backend
 - Express
 - Axios
 - CORS
